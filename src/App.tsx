@@ -12,7 +12,7 @@ import BonusSection from './components/BonusSection';
 import FaqSection from './components/FaqSection';
 import FinalCta from './components/FinalCta';
 import Footer from './components/Footer';
-
+import Instructor from './components/Instructor';
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">
@@ -24,6 +24,7 @@ function App() {
       <TargetAudience />
       <Benefits />
       <TestimonialsSection />
+      <Instructor/>
       <PricingSection />
       <BonusSection />
       <FaqSection />

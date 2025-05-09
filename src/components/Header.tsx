@@ -42,6 +42,10 @@ const Header: React.FC = () => {
           <a href="#benefices" className="text-slate-700 hover:text-amber-600 transition-colors">
             Bénéfices
           </a>
+          <a href="#instructeur" className="text-slate-700 hover:text-amber-600 transition-colors">
+  L’instructeur
+</a>
+
           <a href="#temoignages" className="text-slate-700 hover:text-amber-600 transition-colors">
             Témoignages
           </a>
@@ -87,6 +91,15 @@ const Header: React.FC = () => {
             >
               Bénéfices
             </a>
+            <a 
+  href="#instructeur" 
+  className="text-slate-700 hover:text-amber-600 transition-colors py-2"
+  onClick={() => setIsMenuOpen(false)}
+>
+  L’instructeur
+</a>
+
+
             <a 
               href="#temoignages" 
               className="text-slate-700 hover:text-amber-600 transition-colors py-2"

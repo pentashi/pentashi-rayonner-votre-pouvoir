@@ -1,26 +1,31 @@
-export const testimonials = [
+export const testimonials = 
+[
   {
     id: 1,
     name: 'Achapi',
     role: 'Cadre en entreprise',
-    testimonial: 'Avant la formation, j\'avais l\'impression que mes compétences n\'étaient jamais reconnues à leur juste valeur. Confiance Absolue m\'a aidé à transformer ma posture et ma communication. J\'ai obtenu une promotion trois mois après.',
-    image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    testimonial: "Avant la formation, j'avais l'impression que mes compétences n'étaient jamais reconnues à leur juste valeur. Confiance Absolue m'a aidé à transformer ma posture et ma communication. J'ai obtenu une promotion trois mois après.",
+    image: 'https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' // Christina Morillo photo
   },
   {
     id: 2,
     name: 'Pentashi',
     role: 'Étudiante',
-    testimonial: 'J\'ai toujours eu des idées mais je n\'osais pas les partager. Ce programme m\'a aidée à trouver ma voix. Maintenant, je prends la parole en public sans cette boule au ventre qui me paralysait avant.',
-    image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    testimonial: "J'ai toujours eu des idées mais je n'osais pas les partager. Ce programme m'a aidée à trouver ma voix. Maintenant, je prends la parole en public sans cette boule au ventre qui me paralysait avant.",
+    image: 'https://images.pexels.com/photos/1405963/pexels-photo-1405963.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' // Dellon Thomas photo
   },
   {
     id: 3,
     name: 'Christiane',
     role: 'Entrepreneure',
-    testimonial: 'J\'ai lancé mon entreprise il y a 5 ans, mais j\'avais peur de vraiment me mettre en avant. Confiance Absolue m\'a donné des outils concrets pour dépasser mes blocages. Mon chiffre d\'affaires a doublé depuis.',
-    image: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  },
+    testimonial: "J'ai lancé mon entreprise il y a 5 ans, mais j'avais peur de vraiment me mettre en avant. Confiance Absolue m'a donné des outils concrets pour dépasser mes blocages. Mon chiffre d'affaires a doublé depuis.",
+    image: 'https://images.pexels.com/photos/936043/pexels-photo-936043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' // Blue blazer
+  }
 ];
+
+  
+  
+
 
 export const faqItems = [
   {
