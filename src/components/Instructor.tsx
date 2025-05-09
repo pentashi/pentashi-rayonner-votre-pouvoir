@@ -2,7 +2,7 @@ import React from 'react';
 
 const Instructor: React.FC = () => {
   return (
-    <section id="instructor" className="section-padding bg-primary-800 text-white">
+    <section id="instructeur" className="section-padding bg-primary-800 text-white">
       <div className="container-custom flex flex-col md:flex-row items-center gap-10 md:gap-16">
         {/* Instructor Headshot */}
         <div className="flex-shrink-0">
@@ -15,9 +15,14 @@ const Instructor: React.FC = () => {
 
         {/* Instructor Information */}
         <div className="text-center md:text-left max-w-3xl">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-amber-400 mb-4">
-            Ra Ukuu MBOWE
+          {/* Section Heading */}
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-amber-400 mb-6">
+            À propos de l’instructeur
           </h2>
+
+          <h3 className="text-3xl md:text-4xl font-heading font-bold text-amber-400 mb-4">
+            Ra Ukuu MBOWE
+          </h3>
 
           <p className="text-lg md:text-xl text-slate-200 mb-4">
             Consultant – Formateur International | Spécialiste Leadership Transformationnel & Intelligence Artificielle

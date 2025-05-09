@@ -42,17 +42,31 @@ const FinalCta: React.FC = () => {
             <h3 className="text-2xl font-heading font-bold text-primary-800 mb-6">
               Inscrivez-vous à la prochaine masterclass
             </h3>
-            
+
             {/* Button that links to the form page */}
             <a 
               href="https://bit.ly/MstCA"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn-primary w-full bg-amber-600 hover:bg-amber-700 text-xl py-4">
+              <button className="btn-primary w-full bg-amber-600 hover:bg-amber-700 text-xl py-4 mb-6">
                 Oui, je suis prêt.e à rayonner
               </button>
             </a>
+
+            {/* QR Code for WhatsApp */}
+            <div className="mb-6">
+              <p className="text-xl text-black mb-4">
+                Vous pouvez également nous contacter directement via WhatsApp en scannant ce QR code !
+              </p>
+              <div className="flex justify-center">
+                <img 
+                  src="https://i.imgur.com/YyCQHpk.jpeg" 
+                  alt="Scan this QR code to contact us on WhatsApp" 
+                  className="w-40 h-40" 
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
